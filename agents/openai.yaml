@@ -1,0 +1,7 @@
+interface:
+  display_name: "Guard File Changes"
+  short_description: "Audit AI file edits with deletion guards and rollback snapshots."
+  default_prompt: "Use $guard-file-changes to audit filesystem changes, protect deletion operations, and keep rollback snapshots while working on this project."
+
+policy:
+  allow_implicit_invocation: true
